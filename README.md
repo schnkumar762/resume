@@ -5,7 +5,6 @@
 \usepackage{hyperref}
 \usepackage{enumitem}
 
-\hypersetup{colorlinks=false}
 \setlist[itemize]{leftmargin=*, nosep, topsep=2pt}
 
 \name{Sachin Kumar}
@@ -37,37 +36,38 @@ and solving practical engineering problems.
 % EDUCATION
 %----------------------------------------------------------------------------------------
 
-\begin{rSection}{EDUCATION}
-{\bf Bachelor of Technology}
-\hfill 2020 -- 2024\\
-Netaji Subhash Engineering College, Kolkata\\
-Relevant Coursework: OOP, DSA, DBMS, Operating Systems,
-Computer Networks, Software Engineering.
-\end{rSection}
 
 %----------------------------------------------------------------------------------------
 % EXPERIENCE
 %----------------------------------------------------------------------------------------
 
 \begin{rSection}{EXPERIENCE}
+
 \textbf{Software Engineer}
 \hfill Apr 2026 -- Present\\
 Difelly Mobility India Private Limited (RodBez)
 
 \begin{itemize}
-    \item Contribute to software development, feature implementation,
-    and application maintenance.
-    \item Support debugging, API integration, and application improvements.
-    \item Collaborate with team members to resolve technical issues
-    and deliver software enhancements.
-    
-\item Participate in the software development lifecycle,
-including feature development, testing, debugging, and
-maintaining application quality.
-\item Focus on writing maintainable code and improving
-application reliability through iterative enhancements.
+    \item Develop and maintain React Native applications for driver
+    and operator workflows using TypeScript.
 
+    \item Integrate REST APIs using Axios for authentication, bookings,
+    driver, vehicle, and wallet-related operations.
+
+    \item Manage application state using Zustand and build reusable
+    UI components with NativeWind and React Navigation.
+
+    \item Implement Android background location tracking using
+    Geolocation and background services, with GPS accuracy filtering
+    and conditional location synchronization.
+
+    \item Handle platform-specific location and notification permissions,
+    including background location access and battery optimization checks.
+
+    \item Configure API clients, environment-specific settings, and
+    Android staging and production build variants.
 \end{itemize}
+
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
@@ -75,17 +75,19 @@ application reliability through iterative enhancements.
 %----------------------------------------------------------------------------------------
 
 \begin{rSection}{TECHNICAL SKILLS}
+
 \begin{tabular}{@{} >{\bfseries}l @{\hspace{2ex}} p{5.35in}}
 Languages & Java, JavaScript, SQL, C++\\
 Java Fundamentals & Core Java, OOP, Collections Framework, Exception Handling\\
 Backend & Spring Framework, Spring Boot, REST APIs, DI, IoC\\
 Data Access & JDBC, JPA, Hibernate, Spring Data JPA\\
 Databases & PostgreSQL, MySQL, Redis\\
-Frontend and Mobile & React Native, TypeScript, Next.js\\
+Frontend and Mobile & React Native, TypeScript, Next.js, shadcn/ui, NativeWind\\
 State Management & Zustand\\
-Tools & Git, GitHub, Gradle, Postman, Visual Studio Code\\
+Tools & Git, GitHub, Maven, Gradle, Postman, Visual Studio Code\\
 CS Fundamentals & DSA, DBMS, Operating Systems, Computer Networks\\
 \end{tabular}
+
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
@@ -104,27 +106,31 @@ CS Fundamentals & DSA, DBMS, Operating Systems, Computer Networks\\
 
 \begin{itemize}
     \item Developing a textile e-commerce platform with a React Native
-    mobile app, web dashboard, and Spring Boot backend.
-    \item Building REST APIs using Java and Spring Boot for communication
-    between frontend clients and backend services.
-    \item Working with PostgreSQL for data persistence and Redis for
-    session-related functionality.
-    \item Implementing signup, login, session validation, and logout flows.
-    \item Structuring backend components using controllers, services,
-    repositories, and entities.
-    \item Applying input validation, exception handling, and structured
-error responses to improve API reliability and maintainability.
-\end{itemize}
+    mobile app, a Next.js web dashboard using shadcn/ui, and a
+    Java Spring Boot backend.
 
-\textbf{RodbezOperator -- Driver and Operator Application}
+    \item Developing REST APIs using Java and Spring Boot for
+    authentication, product, and profile-related operations.
 
-\begin{itemize}
-    \item Worked on React Native features for driver and operator workflows.
-    \item Integrated backend APIs and managed application state using Zustand.
-    \item Developed reusable UI components and navigation flows.
-    \item Worked on location tracking and background location updates.
+    \item Implementing user signup, login, session validation, and
+    logout using Redis-based session token management.
+
+    \item Using PostgreSQL, Spring Data JPA, and Hibernate for
+    relational data persistence and object-relational mapping.
+
+    \item Structuring backend functionality with controllers,
+    services, repositories, DTOs, and mapper classes.
 \end{itemize}
 
 \end{rSection}
 
+\begin{rSection}{EDUCATION}
+\textbf{B.Tech in Computer Science and Engineering}
+\hfill 2020 -- 2024\\
+Netaji Subhash Engineering College, Kolkata\\
+CGPA: 8.24/10\\
+Relevant Coursework: Data Structures and Algorithms, OOP, DBMS, Operating Systems, Computer Networks.
+\end{rSection}
+
 \end{document}
+
