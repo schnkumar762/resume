@@ -1,0 +1,130 @@
+
+\documentclass{resume}
+
+\usepackage[a4paper,left=0.45in,right=0.45in,top=0.35in,bottom=0.35in]{geometry}
+\usepackage{hyperref}
+\usepackage{enumitem}
+
+
+\setlist[itemize]{leftmargin=*, nosep, topsep=2pt}
+
+\name{Sachin Kumar}
+
+\address{9334979608 \quad | \quad Bihar, India}
+
+\address{
+\href{mailto:schnkumar762@gmail.com}{schnkumar762@gmail.com}
+\quad | \quad
+\href{https://www.linkedin.com/in/sachin-kumar-5284a6418/}{LinkedIn}
+\quad | \quad
+\href{https://github.com/schnkumar762}{GitHub}
+}
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+% OBJECTIVE
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{OBJECTIVE}
+Software Engineer focused on Java Backend Development, with
+knowledge of Core Java, OOP, Spring Boot, REST APIs, and relational
+databases. Interested in developing reliable, maintainable software
+and solving practical engineering problems.
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% EDUCATION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{EDUCATION}
+{\bf Bachelor of Technology}
+\hfill 2020 -- 2024\\
+Netaji Subhash Engineering College, Kolkata\\
+Relevant Coursework: OOP, DSA, DBMS, Operating Systems,
+Computer Networks, Software Engineering.
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{EXPERIENCE}
+\textbf{Software Engineer}
+\hfill Apr 2026 -- Present\\
+Difelly Mobility India Private Limited (RodBez)
+
+\begin{itemize}
+    \item Contribute to software development, feature implementation,
+    and application maintenance.
+    \item Support debugging, API integration, and application improvements.
+    \item Collaborate with team members to resolve technical issues
+    and deliver software enhancements.
+    
+\item Participate in the software development lifecycle,
+including feature development, testing, debugging, and
+maintaining application quality.
+\item Focus on writing maintainable code and improving
+application reliability through iterative enhancements.
+
+\end{itemize}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% TECHNICAL SKILLS
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{TECHNICAL SKILLS}
+\begin{tabular}{@{} >{\bfseries}l @{\hspace{2ex}} p{5.35in}}
+Languages & Java, JavaScript, SQL, C++\\
+Java Fundamentals & Core Java, OOP, Collections Framework, Exception Handling\\
+Backend & Spring Framework, Spring Boot, REST APIs, DI, IoC\\
+Data Access & JDBC, JPA, Hibernate, Spring Data JPA\\
+Databases & PostgreSQL, MySQL, Redis\\
+Frontend and Mobile & React Native, TypeScript, Next.js\\
+State Management & Zustand\\
+Tools & Git, GitHub, Gradle, Postman, Visual Studio Code\\
+CS Fundamentals & DSA, DBMS, Operating Systems, Computer Networks\\
+\end{tabular}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% PROJECTS
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{PROJECTS}
+
+\textbf{VastraVibe -- Textile E-commerce Platform}
+\hfill
+\href{https://github.com/schnkumar762/vastravibe_dashboard}{Dashboard}
+\;|\;
+\href{https://github.com/schnkumar762/vastravibe_rn}{Mobile App}
+\;|\;
+\href{https://github.com/schnkumar762/vastravibe}{Backend}
+
+\begin{itemize}
+    \item Developing a textile e-commerce platform with a React Native
+    mobile app, web dashboard, and Spring Boot backend.
+    \item Building REST APIs using Java and Spring Boot for communication
+    between frontend clients and backend services.
+    \item Working with PostgreSQL for data persistence and Redis for
+    session-related functionality.
+    \item Implementing signup, login, session validation, and logout flows.
+    \item Structuring backend components using controllers, services,
+    repositories, and entities.
+    \item Applying input validation, exception handling, and structured
+error responses to improve API reliability and maintainability.
+\end{itemize}
+
+\textbf{RodbezOperator -- Driver and Operator Application}
+
+\begin{itemize}
+    \item Worked on React Native features for driver and operator workflows.
+    \item Integrated backend APIs and managed application state using Zustand.
+    \item Developed reusable UI components and navigation flows.
+    \item Worked on location tracking and background location updates.
+\end{itemize}
+
+\end{rSection}
+
+\end{document}
